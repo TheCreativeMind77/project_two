@@ -1,0 +1,689 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a, a:hover{
+    text-decoration: none;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+
+.clr{
+    clear: both;
+}
+
+.mb-0{
+    margin-bottom: 0 !important;
+}
+
+.ml-0{
+    margin-left: 0 !important;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.container{
+    width: 1141px;
+    margin: 0 auto;    
+}
+
+/*-------------------*/
+
+
+/*---------Nav Section Starts Here----------*/
+.nav_section{
+    background-color: black;
+}
+
+.nav_section .logo_part{
+    width: 30%;
+    float: left;
+}
+
+.nav_section .logo_part img{
+    width: 165px;
+    padding: 35px 0;
+}
+
+.nav_section .nav_part{
+    width: 70%;
+    float: left;
+}
+
+.nav_section .nav_part ul{
+    float: right;
+    list-style-type: none;
+}
+
+.nav_section .nav_part  ul li{
+    float: left;
+    padding: 38px 0 ;
+    margin-left: 24px;
+
+}
+
+.nav_section .nav_part  ul li a{
+    color: white;
+    transition: 0.5s;
+}
+
+.nav_section .nav_part  ul li a:hover{
+    color: goldenrod;
+}
+
+
+
+
+.nav_section .nav_part  ul li .appointment{
+    background-color: #e2045d;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    transition: 0.5s;
+    font-weight: 700;
+    box-shadow: 2px 2px 10px  #e2045d;
+
+}
+
+.nav_section .nav_part  ul li .appointment:hover{
+    background-color: white;
+    color: #e2045d;
+}
+
+
+
+/*---------Nav Section Ends Here----------*/
+
+
+
+/*---------Main Saction Section Starts Here----------*/
+
+.main_saction{
+    background-image: url("doctor.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 217px 0;
+    
+
+}
+
+.main_saction .container{
+    position: relative;
+}
+
+
+.main_saction .container .content{
+
+    width: 700px;
+}
+.main_saction .container .content h1{
+    font-size: 80pt;
+}
+
+.main_saction .container .content h1 span{
+    color: #e2045d;
+}
+
+.main_saction .container p{
+    padding: 40px 0;
+    color: #e2045d;
+
+}
+
+.main_saction .container .content .botton{
+    padding: 15px 20px;
+    border-radius: 20px;
+    background-color: #e2045d;
+    color: white;
+    font-weight: 700;
+    transition: 0.5s;
+    border: 2px solid transparent;
+    
+}
+
+.main_saction .container .content .botton:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: #e2045d;
+    
+}
+
+
+/*---------Main Saction Section Ends Here----------*/
+
+
+/*---------form Saction Section starts Here----------*/
+.form_section{
+    padding:35px 65px 65px 65px;
+    box-sizing: border-box;
+    background-color: #fcfcfc;
+    position: absolute;
+    left:0 ;
+    top: 500px; 
+    width: 100%;
+    box-shadow: 1px 1px 10px rgb(176, 174, 174);
+    
+}
+
+
+.form_section h2{
+    color: #e2045d;
+    padding: 0 0 35px 0 ;
+
+
+}
+.form_section .input_fild{
+    
+    width: 49%;
+    padding: 10px;
+    border: 1px solid #e2045d;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 10px;
+    color: #3f3f40;
+    text-transform: uppercase;
+}
+
+
+.form_section form span{
+    color: #e2045d;
+    font-weight: 700;
+    
+    
+    
+}
+
+.form_section form span i{
+    padding: 10px;
+    background-color: #e2045d;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+
+.form_section form .submit{
+    padding: 15px 20px;
+    float: right;
+    background-color: #e2045d;
+    color: white;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    box-shadow: 1px 1px 10px #e2045d;
+    border: 2px solid transparent;
+    font-weight: 700;
+
+}
+
+.form_section form .submit:hover{
+    background-color: transparent;
+    border: 2px solid #e2045d;
+    color: #e2045d;
+    box-shadow: 1px 1px 10px transparent;
+}
+
+
+
+/*---------form Saction Section ends Here----------*/
+
+
+/*---------About Saction Section Starts Here----------*/
+.about_section{
+    padding-top: 380px;
+    background-color:#f4f7fe ;
+}
+
+.about_section .img_part{
+    float: left;
+    width: 480px;
+}
+
+.about_section .about .content_part h2{
+    color: #e2045d;
+    position: relative;
+    margin-right:65px ;
+    
+}
+
+.about_section .about .content_part h2::after{
+    content: "";
+    position: absolute;
+    left: 120px;
+    top: 14px;
+    width: 50px;
+    height: 2px;
+    background-color: #e2045d;
+    border-radius: 5px;
+}
+
+.about_section .container .content_part{
+    width: 660px;
+    float: right;
+}
+
+.about_section .container .content_part h3{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 50px 0 25px 0;
+    color: #3f3f40;
+    
+}
+
+.about_section .container .content_part p{
+    margin-bottom: 40px;
+    line-height: 25px;
+    color: #98989a;
+    font-size: 18px;
+}
+/*---------About Saction Section Ends Here----------*/
+
+
+
+
+/*---------schedul section start here---------*/
+
+.schedul_section{
+    padding: 65px 0;
+}
+.schedul_section .container .schedul_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+
+
+.schedul_heading{
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.schedul_heading h3{
+    position: relative;
+    color: #e2045d;
+    display: inline-block;
+}
+
+
+.schedul_heading h3::after{
+    content: "";
+    position: absolute;
+    left: -65px;
+    top: 50%;
+    height: 2px ;
+    width: 50px;
+    border-radius: 5px;
+    background-color: #e2045d;
+
+}
+
+
+.schedul_heading h3::before{
+    content: "";
+    position: absolute;
+    right: -65px;
+    top: 50%;
+    height: 2px ;
+    width: 50px;
+    border-radius: 5px;
+    background-color: #e2045d;
+
+}
+
+
+
+.schedul_div div{
+    width: 30%;
+    text-align: center;
+    background-color:#f4f7fe;
+    margin: 10px;
+    padding: 30px;
+    color: #2b2b2b;
+    box-shadow: 0 2px 10px gray;
+}
+.schedul_div div p{
+    margin-bottom: 25px;
+}
+
+.schedul_div div a{
+    padding: 8px 12px;
+    background-color: #e2045d;
+    color: white;
+    border: 2px solid transparent;
+    transition: 0.5s;
+    font-weight: 700;
+    border-radius: 50px;
+}
+
+
+.schedul_div div a:hover{
+    background-color: transparent;
+    border: 2px solid #e2045d;
+    color: black;
+}
+
+/*---------schedul section ends here---------*/
+
+
+
+/*---------patient review section start here---------*/
+.patient_review{
+    padding: 50px 0px 60px 0;
+    background-color: #f4f7fe;
+}
+
+.patient_review .patient_image{
+    width: 150px;
+    height: auto;
+    text-align: center;
+    float: left;
+}
+
+.coma_icon {
+    height: 100%;
+    width:40px;
+    margin-top:80px;
+    position: relative;
+    float: left;
+}
+
+.coma_icon::before{
+    content: "";
+    position: absolute;
+    left: 45%;
+    top: 40px;
+    width: 1px;
+    height: 50px;
+    background-color: #b7b9be;
+    border-radius: 5px;
+    
+
+}
+
+.coma_icon::after{
+    content: "";
+    position: absolute;
+    left: 45%;
+    bottom: 40px;
+    width: 1px;
+    height: 50px;
+    background-color: #b7b9be;
+    border-radius: 5px;
+    
+
+}
+
+
+.patient_comment{
+    width: 875px;
+    float: right;
+    text-align: justify;
+}
+
+.patient_review .container h3{
+    padding-bottom: 60px;
+    color: #e2045d;
+    text-align: center;
+    font-size: 22px;
+    position: relative;
+    display: block;
+
+}
+
+.patient_review .container h3::after{
+    content: "";
+    position: absolute;
+    left: 400px;
+    top: 12px;
+    width: 50px;
+    height: 2px;
+    background-color: #e2045d;
+
+
+}
+
+.patient_review .container  h3::before{
+    content: "";
+    position: absolute;
+    right: 400px;
+    top: 12px;
+    width: 50px;
+    height: 2px;
+    background-color: #e2045d;
+
+
+}
+
+.patient_comment p{
+    color: #2b2b2b;
+}
+/*---------patient review section ends here---------*/
+
+
+/*---------counter section starts here---------*/
+
+.counter_section{
+    padding: 110px 0;
+    background: url("group.jpg") no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    display: flex;
+}
+
+.counter_section::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.counter_part{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+
+.counter img,
+.counter h2,
+.counter span{
+    color: white;
+    position: relative;
+    z-index: 3;
+}
+
+.counter img{
+    margin-bottom: 40px;
+}
+
+.counter h2{
+    font-size: 53px;
+}
+
+/*---------counter section ends here---------*/
+
+
+/*---------personal blog section starts here---------*/
+
+.personal_blog{
+    padding: 64px 0 90px 0;
+}
+
+
+.personal_blog .container .personal_all{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.personal_blog .container h3{
+    color: #e2045d;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 60px;
+    position: relative;
+    
+}
+
+.personal_blog .container h3::before{
+    content: "";
+    position: absolute;
+    left: 420px;
+    top: 12px;
+    height: 2px;
+    width: 50px;
+    background-color: #e2045d;
+    border-radius: 5px;
+}
+
+.personal_blog .container h3::after{
+    content: "";
+    position: absolute;
+    right: 420px;
+    top: 12px;
+    height: 2px;
+    width: 50px;
+    background-color: #e2045d;
+    border-radius: 5px;
+}
+
+
+
+.personal_blog .container h4{
+    margin-bottom: 33px;
+}
+
+
+.personal_blog .container .personal_section_div{
+    width: 30%;
+    background-color:#f4f7fe ;
+    position: relative;
+    box-shadow: 0 2px 10px gray;
+}
+
+.personal_blog .container .personal_section_div .personal_img img{
+    width: 100%;
+    height: auto;
+
+}
+
+.personal_section_div .personal_body{
+    padding:30px;
+    
+
+}
+
+.personal_footer{
+    background-color: #f4f7fe;
+    padding:20px;
+}
+
+.personal_footer .love{
+    float: left;
+}
+
+.personal_footer .sms{
+    float: right;
+}
+
+.personal_footer  img{
+    float: left;
+    margin-right: 10px;
+}
+
+.date{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 25px;
+    top: 200px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #e2045d;
+    color: white;
+    text-align: center;
+    
+
+}
+
+.date h4{
+    margin-top: 8px;
+    
+}
+/*---------personal blog section ends here---------*/
+
+
+
+/*---------footer section starts here---------*/
+.footer_area{
+    padding: 45px 0 120px 0;
+    background-color:#2b2b2b ;
+    color: #e0e0e0;
+    border-bottom: 2px solid #4b4b4b;
+}
+
+.footer_area .container .contact_area{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_area .container .contact_area .medico,
+.footer_area .container .contact_area .quick_link,
+.footer_area .container .contact_area .contact{
+    width: 33%;
+}
+
+
+.footer_area .container .contact_area .contact{
+    text-align: right;
+}
+
+.footer_area .container .contact_area .quick_link{
+    text-align: left;
+    margin-left: 150px;
+}
+
+.footer_area .container .contact_area .quick_link ul li a{
+    color: #e0e0e0;
+}
+
+.footer_area .container .contact_area img{
+    margin-bottom: 22px;
+}
+
+.footer_area .container .contact_area h4{
+    margin-bottom:40px;
+    font-size: 20px;
+    color: white;
+}
+
+.copy_right{
+    padding: 28px 0;
+    text-align: center;
+    color: #e0e0e0;
+    background-color: #2b2b2b;
+}
+
+/*---------footer section starts here---------*/
+
